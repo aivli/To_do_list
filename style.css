@@ -1,0 +1,358 @@
+
+
+body
+{
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+.main-background
+{
+	background-image: url("img/image1.jpg");
+	filter:blur(20px);
+	-webkit-filter:blur(20px);
+	-moz-filter:blur(20px);
+	-o-filter:blur(20px);
+	-ms-filter:blur(20px);
+	display:block;
+	position: fixed;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	width:1400px;
+	height:800px;
+}
+button
+{
+	background: none;
+	border:none;
+	margin:0;
+	padding: 0;
+	color:inherit;
+	font-size: inherit;
+	cursor:pointer;
+}
+.container
+{
+	width:600px;
+	height: 600px;
+	right: 0;
+	left:0;
+	top:0;
+	bottom: 0;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	position:fixed;
+	z-index:99;
+}
+.cf:after
+{
+	clear:both;
+}
+.col3
+{
+	display:block;
+	float:left;
+	width:33.3%;
+}
+.col2
+{
+	width: 50%;
+	display: block;
+	float: left;
+}
+
+.top-navigation
+{
+	display: block;
+	height:70px;
+	background-color: rgba(118,120,123,0.5);
+	color:#ffffff;
+}
+.circles
+{
+	text-align:left;
+	padding-top: 5px;
+	padding-left: 10px;
+	color:#ced1e0;
+}
+.top-label
+{
+	text-align:center;
+	padding-top: 30px;
+	font-weight: 600;
+	font-size: 18px;
+}
+.top-icons
+{
+	text-align:right;
+	padding-top: 25px;
+	padding-right: 10px;
+	color:#ced1e0;
+	font-size: 20px;
+}
+
+.main-category-list
+{
+	float: left;
+	width:70px;
+	left: 0;
+	z-index:1;
+}
+
+.category
+{
+	background-color:#52596c;
+	height:70px;
+	width:70px;
+}
+
+.category-selector
+{
+	height:50px;
+	width: 50px;
+	margin-left: 10px;
+	}
+
+.category-under
+{
+	background-color:rgba(0,0,0,0.5);
+	height:180px;
+	width:70px;
+	}
+
+
+
+.category-icon
+{
+	color:white;
+	font-size:30px;
+}
+.settings-icon
+{
+	color:gray;
+	font-size:25px;
+	text-align:center;
+	padding-top:120px;
+}
+
+.task-list
+{
+	background-color:#52596c;
+	border-left: 2px solid #4e5366;
+	overflow:auto;
+	color:#fffeff;
+	height: 530px;
+}
+.favorite-task
+{
+	height: 200px;
+	font-size:36px;
+}
+.task-container
+{
+	display:block;
+	height: 100%;
+	position:relative;
+	border-top: 1px solid #5b6274;
+	border-bottom: 1px solid #5b6274;
+}
+.task-checkbox-container
+{
+	width: 48px;
+	background-color: #4a4f62;
+	position:absolute;
+	left:0;
+	top:0;
+	bottom: 0;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.task-description
+{
+	vertical-align: middle;
+	top:0;
+	bottom:0;
+	padding-left: 65px;
+	padding-right:12px;
+}
+.task-date
+{
+	padding-left: 65px;
+	padding-top: 7px;
+	color:#a4a9af;
+	font-size: 14px;
+}
+.task-color
+{
+	width: 12px;
+	background-color: red;
+	position: absolute;
+	top:0;
+	bottom:0;
+	right:0;
+}
+.category-color1
+{
+	background-color: #fe6d6a;
+}
+.category-color2
+{
+	background-color: #ffc778;
+}
+.category-color3
+{
+	background-color: #cc94ef;
+}
+.category-color4
+{
+	background-color: #2ce4be;
+}
+
+.add-task-container
+{
+	position: absolute;
+	width: 600px;
+	z-index: 10;
+	color: #f2f3f5;
+}
+.add-task-top-row
+{
+	height:100px;
+	background-color: #535455;
+	opacity: 0.9;
+}
+.add-task-label
+{
+	display: inline-block;
+	line-height: 100px;
+	vertical-align: middle;
+	padding-left: 30px;
+	font-size: 25px;
+}
+.add-task-icons
+{
+	float:right;
+	line-height: 100px;
+	vertical-align: middle;
+	padding-right: 25px;
+	font-size: 25px;
+}
+.add-task-category
+{
+	height: 100px;
+	background-color: #828383;
+	opacity: 0.9;
+}
+.add-task-category-label
+{
+	display: inline-block;
+	line-height: 100px;
+	vertical-align: middle;
+	padding-left: 30px;
+	font-size: 25px;
+}
+.add-task-category-icon
+{
+	color:white;
+	font-size:25px;
+	text-align:center;
+	padding-top:16%;
+}
+.add-task-category-choose
+{
+	float:right;
+	padding-right: 30px;
+	margin-top: 25px;
+	display: flex;
+}
+.round
+{
+	border-radius: 50%;
+}
+.search-container
+{
+	position: absolute;
+	height: 100px;
+	z-index: 10;
+	color: #f2f3f5;
+	font-size: 30px;
+	background-color: #828383;
+	opacity: 0.9;
+
+	left:0;
+	right:0;
+}
+.search-icon
+{
+	float: left;
+	padding-left: 25px;
+	position: relative;
+	top: 50%;
+  transform: translateY(-50%);
+}
+
+.search-input
+{
+	float:left;
+	padding-left: 25px;
+	position: relative;
+	top: 50%;
+  transform: translateY(-50%);
+	overflow: hidden;
+	width: 80%;
+}
+
+.search-input-field
+{
+	border: hidden;
+	background: none;
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	color:inherit;
+}
+.not-visible:not(visible)
+{
+	display: none;
+}
+label {
+  cursor: pointer;
+  color: #5c6272; /* set color */
+  font-size: 1em; /* label font size will scale up the checkbox */
+}
+label input[type="checkbox"] {
+  display: none; /* Hide default checkbox */
+}
+/* Prevent text for being selected
+ * This fixes repeated clicks to auto-select text line
+*/
+label input[type="checkbox"] + .label-text {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/* Style custom checkbox
+ * Unckecked style
+*/
+label input[type="checkbox"] + .label-text:before {
+  content: "\f10c"; /* Equivalent to fa-circle-o */
+  font-family: "FontAwesome";
+
+}
+/* Checked style */
+.task-checkbox-container label input[type="checkbox"]:checked + .label-text:before {
+  content: "\f05d"; /* equivalent to fa-check-circle */
+  -webkit-animation: tick 150ms ease-in;
+  animation: tick 150ms ease-in;
+}
+.task-checked
+{
+	opacity: 0.5;
+}

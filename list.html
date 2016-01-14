@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>To do list</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700italic,700,300italic,300&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<div class="main-background">
+</div>
+<div class="container cf">
+	<div class="top-navigation">
+		<div class="col3">
+			<button>
+				<div class="circles">
+					<i class="fa fa-circle"></i>
+					<i class="fa fa-circle"></i>
+					<i class="fa fa-circle"></i>
+				</div>
+			</button>
+		</div>
+		<div class="col3">
+			<div class="top-label">
+				All Tasks
+			</div>
+		</div>
+		<div class="col3">
+			<div class=top-icons>
+					<button><i class="fa fa-search"></i></button>
+					<button><i class="fa fa-plus-circle"></i></button>
+			</div>
+		</div>
+	</div>
+	<div class="search-container not-visible">
+		<div class="search-icon">
+			<i class="fa fa-search"></i>
+		</div>
+		<div class="search-input">
+			<input type="text" class="search-input-field">
+		</div>
+	</div>
+
+	<div class="add-task-container not-visible">
+		<div class="add-task-top-row">
+			<div class="add-task-label" contenteditable="true">
+				Add a new task
+			</div>
+			<div class="add-task-icons">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-calendar"></i>
+				<i class="fa fa-circle"></i>
+			</div>
+		</div>
+		<div class="add-task-category">
+			<div class="add-task-category-label">
+				Select a category
+			</div>
+			<div class="add-task-category-choose">
+				<button>
+				<div class="category-selector category-color1 round">
+					<div class="add-task-category-icon">
+						<i class="fa fa-home"></i>
+					</div>
+				</div>
+			</button>
+			<button>
+				<div class="category-selector category-color2 round">
+					<div class="add-task-category-icon">
+						<i class="fa fa-briefcase"></i>
+					</div>
+				</div>
+			</button>
+			<button>
+				<div class="category-selector category-color3 round">
+					<div class="add-task-category-icon">
+						<i class="fa fa-desktop"></i>
+					</div>
+				</div>
+			</button>
+			<button>
+				<div class="category-selector category-color4 round">
+					<div class="add-task-category-icon">
+						<i class="fa fa-users"></i>
+					</div>
+				</div>
+			</button>
+			</div>
+		</div>
+	</div>
+	<div class="main-category-list">
+		<button class="category">
+				<div class="category-icon">
+					<i class="fa fa-list"></i>
+				</div>
+		</button>
+		<button class="category category-color1">
+				<div class="category-icon">
+					<i class="fa fa-home"></i>
+				</div>
+		</button>
+		<button class="category category-color2">
+				<div class="category-icon">
+					<i class="fa fa-briefcase"></i>
+				</div>
+		</button>
+		<button class="category category-color3">
+				<div class="category-icon">
+					<i class="fa fa-desktop"></i>
+				</div>
+		</button>
+		<button class="category category-color4">
+				<div class="category-icon">
+					<i class="fa fa-users"></i>
+				</div>
+		</button>
+		<div class="category-under">
+			<div class="settings-icon">
+				<button>
+					<i class="fa fa-cog"></i>
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<div class=task-list>
+		<div class="favorite-task">
+			<div class="task-container cf">
+				<div class="task-date">
+Next monday
+				</div>
+				<div class="task-checkbox-container">
+					<div class="task-checkbox-circle">
+						<label>
+					    <input type="checkbox" name="check">
+							<span class="label-text"></span>
+					  </label>
+					</div>
+				</div>
+				<div class="task-description">
+					<p> Buy a new better toothbrush</p>
+				</div>
+				<div class="task-color category-color1">
+				</div>
+			</div>
+		</div>
+		<div class="col2">
+			<div class="task-container cf">
+				<div class="task-date">
+Tomorrow
+				</div>
+				<div class="task-checkbox-container">
+					<div class="task-checkbox-circle">
+						<label>
+					    <input type="checkbox" name="check">
+							<span class="label-text"></span>
+					  </label>
+					</div>
+				</div>
+				<div class="task-description">
+										<p> Clean my room</p>
+				</div>
+				<div class="task-color category-color2">
+				</div>
+			</div>
+			<div class="task-container cf">
+				<div class="task-date">
+today
+				</div>
+				<div class="task-checkbox-container">
+					<div class="task-checkbox-circle">
+						<label>
+					    <input type="checkbox" name="check">
+							<span class="label-text"></span>
+					  </label>
+					</div>
+				</div>
+				<div class="task-description">
+										<p> Do a homework ipsum sukhfg asdasdasd asddd, dsfsdfs fdgsdfgg sgsdgsdfgsdf fssfgsg</p>
+				</div>
+				<div class="task-color category-color3">
+				</div>
+			</div>
+			<div class="task-container cf">
+				<div class="task-date">
+next week
+				</div>
+				<div class="task-checkbox-container">
+					<div class="task-checkbox-circle">
+						<form>
+						<label>
+					    <input type="checkbox" name="check">
+							<span class="label-text"></span>
+					  </label>
+					</form>
+					</div>
+				</div>
+				<div class="task-description">
+										<p> Buy a milk</p>
+				</div>
+				<div class="task-color category-color3">
+				</div>
+			</div>
+
+		</div>
+		<div class="col2">
+			<div class="task-container cf">
+				<div class="task-date">
+last week
+				</div>
+				<div class="task-checkbox-container">
+					<div class="task-checkbox-circle">
+						<label>
+					    <input type="checkbox" name="check">
+							<span class="label-text"></span>
+					  </label>
+					</div>
+				</div>
+				<div class="task-description">
+										<p> Clean a house adadasd fdsdfsf asdasdasd afaf fsafsdfasdf safafdaf sadfadfsa vfgsbdgb </p>
+				</div>
+				<div class="task-color category-color4">
+				</div>
+			</div>
+			<div class="task-container cf">
+				<div class="task-date">
+last week
+				</div>
+				<div class="task-checkbox-container">
+					<div class="task-checkbox-circle">
+						<label>
+					    <input type="checkbox" name="check">
+							<span class="label-text"></span>
+					  </label>
+					</div>
+				</div>
+				<div class="task-description">
+										<p> Gift for Petra</p>
+				</div>
+				<div class="task-color category-color3">
+				</div>
+			</div>
+			<div class="task-container cf">
+				<div class="task-date">
+last week
+				</div>
+				<div class="task-checkbox-container">
+					<label>
+						<input type="checkbox" name="check">
+						<span class="label-text"></span>
+					</label>
+				</div>
+				<div class="task-description">
+										<p> Call to Jacob Antalic</p>
+				</div>
+				<div class="task-color category-color2">
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+</body>
+</html>
