@@ -12,7 +12,7 @@
 <body>
 <div class="main-background">
 </div>
-<div class="container cf">
+<div class="container">
 	<div class="top-navigation">
 		<div class="col3">
 			<button>
@@ -30,12 +30,317 @@
 		</div>
 		<div class="col3">
 			<div class=top-icons>
-					<button><i class="fa fa-search"></i></button>
-					<button><i class="fa fa-plus-circle"></i></button>
+					<button class="top-search-icon"><i class="fa fa-search"></i></button>
+					<button class="rotate"><i class="fa fa-plus-circle"></i></button>
 			</div>
 		</div>
 	</div>
-	<div class="search-container not-visible">
+	<div class="overlay hidden">
+	</div>
+	<div class="task-details-container hidden">
+		<div class="task-details-color category-color4">
+		</div>
+		<div class="task-details-main-row">
+			<div class="task-details-checkbox">
+				<div class="task-details-checkbox-circle">
+					<label>
+						<input type="checkbox" name="check">
+						<span class="label-text"></span>
+					</label>
+				</div>
+			</div>
+			<div class="task-details-description" contenteditable="true">
+				<p> Buy a new toothbrush</p>
+			</div>
+			<div class="task-details-favorite-icon">
+				<label class="fav-icon-check">
+					<input type="checkbox" name="check">
+					<span class="label-text"></span>
+				</label>
+			</div>
+		</div>
+		<button class="task-details-row cf">
+			<div class="task-details-icon">
+				<i class="fa fa-calendar"></i>
+			</div>
+			<div class="task-details-text">
+				Set a due date
+			</div>
+		</button>
+		<button class="task-details-row">
+			<div class="task-details-icon">
+				<i class="fa fa-bell-o"></i>
+			</div>
+			<div class="task-details-text">
+				Set a remainder
+			</div>
+		</button>
+		<button class="task-details-row-category">
+			<div class="task-details-category">
+				<div class="task-details-category-icon round category-color4">
+				</div>
+			</div>
+
+			<div class="task-details-text">
+				<div class="task-details-text-category">
+					Work
+				</div>
+			</div>
+		</button>
+		<div class="task-details-row">
+			<button class="task-details-icon-note">
+				<i class="fa fa-pencil-square-o"></i>
+			</button>
+			<div class="task-details-text-note" contenteditable="true">
+				Add note
+			</div>
+		</div>
+	</div>
+	<div class="calendar-container hidden">
+		<div class="calendar-top">
+		</div>
+		<div class="calendar-caption">
+			<button><i class="fa fa-angle-left"></i>
+			</button>
+			<span class="calendar-caption-span">
+				January
+			</span>
+			<button><i class="fa fa-angle-right"></i>
+			</button>
+		</div>
+		<table class="calendar-table" cellspacing="0" cellpadding="0">
+
+			<thead class="calendar-head">
+					<tr>
+						<th>
+							<span class="calendar-days">
+								MON
+							</span>
+						</th>
+						<th>
+							<span class="calendar-days">
+								TUE
+							</span>
+						</th>
+						<th>
+							<span class="calendar-days">
+								WED
+							</span>
+						</th>
+						<th>
+							<span class="calendar-days">
+								THU
+							</span>
+						</th>
+						<th>
+							<span class="calendar-days">
+								FRI
+							</span>
+						</th>
+						<th>
+							<span class="calendar-days">
+								SAT
+							</span>
+						</th>
+						<th>
+							<span class="calendar-days">
+								SUN
+							</span>
+						</th>
+					</tr>
+			</thead>
+				<tbody class="calendar-body-table">
+					<tr>
+						<td>
+							<span class="calendar-date calendar-other-month">
+								28
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date calendar-other-month">
+								29
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date calendar-other-month">
+								30
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date calendar-other-month">
+								31
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								1
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								2
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								3
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span class="calendar-date">
+								4
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								5
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								6
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								7
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								8
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								9
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								10
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span class="calendar-date">
+								11
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								12
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								13
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								14
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								15
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								16
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								17
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span class="calendar-date">
+								18
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date calendar-task-date round">
+								19
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								20
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								21
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date calendar-current-date round">
+								22
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								23
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								24
+							</span>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<span class="calendar-date">
+								25
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								26
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								27
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								28
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								29
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								30
+							</span>
+						</td>
+						<td>
+							<span class="calendar-date">
+								31
+							</span>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		<div class="set-date-arrow">
+		</div>
+	</div>
+	<div class="search-container hidden">
 		<div class="search-icon">
 			<i class="fa fa-search"></i>
 		</div>
@@ -44,15 +349,24 @@
 		</div>
 	</div>
 
-	<div class="add-task-container not-visible">
+	<div class="add-task-container hidden">
 		<div class="add-task-top-row">
 			<div class="add-task-label" contenteditable="true">
 				Add a new task
 			</div>
 			<div class="add-task-icons">
-				<i class="fa fa-star"></i>
-				<i class="fa fa-calendar"></i>
-				<i class="fa fa-circle"></i>
+				<div class="add-task-icon-favorite">
+					<label class="fav-icon-check">
+						<input type="checkbox" name="check">
+						<span class="label-text"></span>
+					</label>
+				</div>
+				<button class="calendar-icon">
+						<i class="fa fa-calendar"></i>
+				</button>
+				<button class="circle-icon">
+						<i class="fa fa-circle"></i>
+				</button>
 			</div>
 		</div>
 		<div class="add-task-category">
@@ -60,34 +374,28 @@
 				Select a category
 			</div>
 			<div class="add-task-category-choose">
-				<button>
-				<div class="category-selector category-color1 round">
+				<button class="category-selector category-color1 round">
 					<div class="add-task-category-icon">
 						<i class="fa fa-home"></i>
 					</div>
-				</div>
-			</button>
-			<button>
-				<div class="category-selector category-color2 round">
+				</button>
+				<button class="category-selector category-color2 round">
 					<div class="add-task-category-icon">
 						<i class="fa fa-briefcase"></i>
 					</div>
-				</div>
-			</button>
-			<button>
-				<div class="category-selector category-color3 round">
+				</button>
+				<button class="category-selector category-color3 round">
 					<div class="add-task-category-icon">
 						<i class="fa fa-desktop"></i>
 					</div>
-				</div>
-			</button>
-			<button>
-				<div class="category-selector category-color4 round">
+				</button>
+				<button class="category-selector category-color4 round">
 					<div class="add-task-category-icon">
 						<i class="fa fa-users"></i>
 					</div>
-				</div>
-			</button>
+				</button>
+			</div>
+			<div class="set-category-arrow">
 			</div>
 		</div>
 	</div>
@@ -128,9 +436,19 @@
 
 	<div class=task-list>
 		<div class="favorite-task">
-			<div class="task-container cf">
-				<div class="task-date">
-Next monday
+			<div class="task-container">
+				<div class="task-place-and-date">
+					<div class="task-place">
+						<div class="task-place-icon">
+							<i class="fa fa-map-pin"></i>
+						</div>
+						<div class="task-place-text">
+						At Tesco
+					</div>
+					</div>
+					<div class="task-date favorite-date">
+	Next monday
+					</div>
 				</div>
 				<div class="task-checkbox-container">
 					<div class="task-checkbox-circle">
@@ -143,16 +461,23 @@ Next monday
 				<div class="task-description">
 					<p> Buy a new better toothbrush</p>
 				</div>
+				<button class="task-favorite-icon">
+					<i class="fa fa-star"></i>
+				</button>
 				<div class="task-color category-color1">
 				</div>
+				<div class="all-tasks-arrow">
+				</div>
 			</div>
+
 		</div>
+
 		<div class="col2">
-			<div class="task-container cf">
-				<div class="task-date">
+			<div class="task-container">
+				<div class="task-place-and-date">
 Tomorrow
 				</div>
-				<div class="task-checkbox-container">
+				<div class="task-checkbox-container task-urgent">
 					<div class="task-checkbox-circle">
 						<label>
 					    <input type="checkbox" name="check">
@@ -166,8 +491,8 @@ Tomorrow
 				<div class="task-color category-color2">
 				</div>
 			</div>
-			<div class="task-container cf">
-				<div class="task-date">
+			<div class="task-container">
+				<div class="task-place-and-date">
 today
 				</div>
 				<div class="task-checkbox-container">
@@ -179,13 +504,13 @@ today
 					</div>
 				</div>
 				<div class="task-description">
-										<p> Do a homework ipsum sukhfg asdasdasd asddd, dsfsdfs fdgsdfgg sgsdgsdfgsdf fssfgsg</p>
+										<p> Do a homework ipsum sukhfg asdasdasd asddd, dsfsdfs</p>
 				</div>
 				<div class="task-color category-color3">
 				</div>
 			</div>
-			<div class="task-container cf">
-				<div class="task-date">
+			<div class="task-container task-checked">
+				<div class="task-place-and-date">
 next week
 				</div>
 				<div class="task-checkbox-container">
@@ -207,8 +532,8 @@ next week
 
 		</div>
 		<div class="col2">
-			<div class="task-container cf">
-				<div class="task-date">
+			<div class="task-container">
+				<div class="task-place-and-date">
 last week
 				</div>
 				<div class="task-checkbox-container">
@@ -220,13 +545,13 @@ last week
 					</div>
 				</div>
 				<div class="task-description">
-										<p> Clean a house adadasd fdsdfsf asdasdasd afaf fsafsdfasdf safafdaf sadfadfsa vfgsbdgb </p>
+										<p> Clean a house adadasd fdsdfsf asdasdasd afaf adadsd</p>
 				</div>
 				<div class="task-color category-color4">
 				</div>
 			</div>
-			<div class="task-container cf">
-				<div class="task-date">
+			<div class="task-container task-checked">
+				<div class="task-place-and-date">
 last week
 				</div>
 				<div class="task-checkbox-container">
@@ -243,25 +568,27 @@ last week
 				<div class="task-color category-color3">
 				</div>
 			</div>
-			<div class="task-container cf">
-				<div class="task-date">
+			<div class="task-container task-checked">
+				<div class="task-place-and-date">
 last week
 				</div>
 				<div class="task-checkbox-container">
-					<label>
-						<input type="checkbox" name="check">
-						<span class="label-text"></span>
-					</label>
+					<div class="task-checkbox-circle">
+						<label>
+							<input type="checkbox" name="check">
+							<span class="label-text"></span>
+						</label>
+					</div>
 				</div>
 				<div class="task-description">
-										<p> Call to Jacob Antalic</p>
+										<p> Call to Jacob Antalic and sfsafdgasdf afasdfsa</p>
 				</div>
 				<div class="task-color category-color2">
 				</div>
 			</div>
 		</div>
-
 	</div>
+
 </div>
 </body>
 </html>
